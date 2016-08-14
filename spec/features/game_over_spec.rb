@@ -6,8 +6,7 @@ feature 'Game over' do
 
     before do
         sign_in_and_play
-        attack_and_confirm
-        allow(Kernel).to receive(:rand).and_return(60)
+        11.times { attack_and_confirm }
     end
 
     scenario 'Player 1 loses' do

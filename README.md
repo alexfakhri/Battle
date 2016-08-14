@@ -1,5 +1,7 @@
 # Battle
 
+A two player game made using Ruby and Sinatra. The aim of the game is to attack the other player until their hit points go down to zero. Game is played in the browser and players take turns to play.
+
 ####Technologies Used:
   - Ruby
   - RSpec
